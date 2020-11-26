@@ -177,3 +177,48 @@ select.list-dt:focus {
     width: 100%;
     object-fit: cover
 }
+
+#photo {
+    padding: .5em;
+    float: left;
+    width: 150px;
+    white-space: nowrap;
+    overflow: hidden;
+    background: #fff;
+    border: 1px solid #ddd;
+    width: 80%;
+}
+
+label[for=file-upload] {
+    padding: .5em;
+    display: inline-block;
+    background: #fab83e;
+    border: 1px solid #fab83e;
+    cursor: pointer;
+    color: #000;
+    width: 20%;
+    text-align: center;
+}
+
+#file-upload {
+    position: absolute;
+    left: 15px;
+    top: 0px;
+    z-index: -1;
+}
+
+.page-wrapper.changepassword{
+	width: 50%;
+    position: absolute;
+    top: 15%;
+    bottom: 0;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+@media(max-width: 480px){
+	.page-wrapper.changepassword{
+		width: 80%;
+	}
+}
